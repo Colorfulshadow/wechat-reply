@@ -52,5 +52,5 @@ def text_reply(msg):
             print(f"收到目标用户消息: {msg['Text']}")
             return msg['Text']
 
-itchat.auto_login(hotReload=True)
+itchat.auto_login(hotReload=True, enableCmdQR=True)
 itchat.run()
