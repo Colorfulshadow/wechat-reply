@@ -8,7 +8,7 @@
 pip install itchat-uos==1.5.0.dev0
 ```
 
-- 建议修改`itchat\components\login.py`脚本，保证成功登录
+- 建议修改`itchat\components\login.py`脚本，保证成功登录。具体代码参考[github issue](https://github.com/why2lyj/ItChat-UOS/pull/14/files)
 
 ```python
            if status == '200':
